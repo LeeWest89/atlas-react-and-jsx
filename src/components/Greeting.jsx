@@ -1,3 +1,7 @@
+import dayImg from '/src/assets/day.svg';
+import eveningImg from '/src/assets/evening.svg';
+import nightImg from '/src/assets/night.svg';
+
 // Greeting component
 const Greeting = () => {
   const time = new Date().getHours();
@@ -6,16 +10,16 @@ const Greeting = () => {
 
   // greeting for time of day
   if (time >= 6 && time < 12) {
-    timeImg = '/src/assets/day.svg';
+    timeImg = dayImg;
     message = 'Good Morning!';
   } else if ( time >= 12 && time < 17) {
-    timeImg = '/src/assets/day.svg';
+    timeImg = dayImg;
     message = 'Good Afternoon!';
   } else if (time >= 17 && time < 21) {
-    timeImg = '/src/assets/evening.svg';
+    timeImg = eveningImg;
     message = 'Good Evening!';
   } else {
-    timeImg = '/src/assets/night.svg';
+    timeImg = nightImg;
     message = 'Good Night!';
   }
 
