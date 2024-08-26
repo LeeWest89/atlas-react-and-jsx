@@ -1,5 +1,3 @@
-import React from 'react'
-
 // SocialLinks component
 const SocialLinks = () => {
   //social-links div

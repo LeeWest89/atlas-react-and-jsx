@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Greeting component
 const Greeting = () => {
   const time = new Date().getHours();

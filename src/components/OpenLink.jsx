@@ -1,5 +1,3 @@
-import React from "react";
-
 // OpenLink component
 const OpenLink = ({ link }) => {
   return (

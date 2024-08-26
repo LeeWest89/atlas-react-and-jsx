@@ -1,5 +1,3 @@
-import React from "react";
-
 // Section component
 const Section = ({ title, children }) => {
   return (

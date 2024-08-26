@@ -1,5 +1,3 @@
-import React from "react";
-
 // CopyLink component
 const CopyLink = ({ link }) => {
   const handleCopy = () => {

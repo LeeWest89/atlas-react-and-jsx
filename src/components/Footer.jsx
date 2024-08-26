@@ -1,4 +1,3 @@
-import React from "react";
 import links from "/src/assets/links.json";
 
 // Footer component

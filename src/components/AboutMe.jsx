@@ -1,5 +1,3 @@
-import React from 'react';
-
 // AboutMe component
 const AboutMe = () => {
   return (
