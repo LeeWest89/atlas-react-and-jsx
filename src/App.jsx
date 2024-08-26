@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./components/Header"
 import Section from "./components/Section";
 import HelpfulResouce from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +31,12 @@ function App() {
         <HelpfulResouce link="https://www.youtube.com/watch?v=Rh3tobg7hEo" label="Learn React With This One Project" />
         <HelpfulResouce link="https://www.youtube.com/watch?v=lE31_0cXeAg" label="This Is How You Handle Events In A React App" />
       </Section>
+
+      {/* AboutMe*/}
+      <AboutMe />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
