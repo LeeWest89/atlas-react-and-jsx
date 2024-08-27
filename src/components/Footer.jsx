@@ -13,7 +13,7 @@ const Footer = () => {
               {item.label}
             </a>
           </li>
-        ))};
+        ))}
       </ul>
       <p>© {thisYear} Atlas School</p>
     </footer>
